@@ -1,125 +1,132 @@
-# ASP.NET Developer — C#, .NET 10, EF Core, MVC/Web API, Clean Architecture
+# .NET Developer | C#, .NET 10, ASP.NET Core, MVC, Web APIs, SQL Server  
+### Clean Architecture, DDD Fundamentals
 
-## 🧭 About Me
-I’m an ASP.NET Developer specializing in building clean, scalable, and maintainable backend systems using C#, .NET 10, Entity Framework Core, ASP.NET Core MVC, and Web API.
+## About
 
-Before transitioning into software engineering, I led international IT and digital transformation programs across Europe — experience that helps me understand business requirements, structure workflows, and collaborate effectively across teams.
+I’m a .NET Developer focused on building scalable, reliable applications with **C#, .NET 10, ASP.NET Core, MVC, Web APIs, and SQL Server**. I prioritize clean, maintainable codebases and apply **Clean Architecture** and **DDD fundamentals** to keep systems well-structured and easy to evolve over time.
 
-Today, I focus on:
+Before transitioning into software engineering, I led international IT and digital transformation initiatives across Europe. That experience strengthened my ability to translate operational requirements into practical technical solutions and collaborate effectively in cross-functional environments.
 
-- Building modern ASP.NET Core applications (.NET 10)
-- Designing REST APIs and integrating them with MVC clients
-- Writing clean, testable, maintainable code (xUnit, Moq)
-- Applying Clean Architecture, Repository Pattern, Dependency Injection, and early DDD concepts
-- Working in structured agile and collaborative environments
-
-My approach combines technical depth with analytical problem-solving, ideal for enterprise and domain-driven development.
-
----
-
-## 🧩 Tech Stack
-
-**Languages & Frameworks:**  
-C#, .NET 10, ASP.NET Core MVC, Web API, EF Core, LINQ, SQL Server, Razor, JavaScript
-
-**Tools & Platforms:**  
-Visual Studio, GitHub, Git, Swagger/OpenAPI, Postman, xUnit, Moq, Azure DevOps (familiar)
-
-**Architecture & Patterns:**  
-Clean Architecture, Repository Pattern, Dependency Injection, Domain-Driven Design (Foundations), REST API design, Code-First & DB-First workflows
-
-**Professional Skills:**  
-Analytical Thinking · System Integration · Process Optimization · IT Project Management · Documentation · Team Collaboration
+### Current focus
+- Building ASP.NET Core MVC applications and RESTful Web APIs on .NET 10  
+- Designing SQL Server-backed systems with clear data workflows (LINQ, migrations)  
+- Applying Clean Architecture, Repository Pattern, Dependency Injection, and DDD fundamentals  
+- Writing testable, maintainable code (unit testing with xUnit and Moq)  
+- Working in structured, collaborative development environments (Git, GitHub, Jira, API tooling)
 
 ---
 
-## 🚀 Featured Projects
+## Tech Stack
 
-### 1️⃣ WebShopMVC — Full-Stack ASP.NET Core eCommerce Application  
-**Tech:** ASP.NET Core MVC (.NET 10) · EF Core · SQL Server · Identity · Razor Views  
-A full-featured eCommerce platform with authentication, admin management, product catalog, shopping cart, and order workflows.
+### Core
+- C# · .NET 10 · ASP.NET Core · MVC · Web APIs · SQL Server
 
-**Highlights:**  
-- Identity authentication + roles  
-- Shopping cart & checkout  
-- Admin Area (products, categories, images)  
-- LINQ filtering & pagination  
-- DI configuration & layered architecture  
+### Data & Integration
+- Entity Framework Core · LINQ · Migrations · Code-First / Database-First · JSON · HttpClient
 
-👉 **Repository:** https://github.com/alanracic/WebShopMVC
+### Testing & Tools
+- Unit Testing · xUnit · Moq · Swagger · Postman · Visual Studio · Git · GitHub · Docker · Jira
 
----
+### Front-End (supporting)
+- HTML · CSS · JavaScript (ES6) · TypeScript · React · Razor
 
-### 2️⃣ MovieManagementAPI — REST API + MVC Client  
-**Tech:** ASP.NET Core Web API · MVC Client · EF Core · JSON · HttpClient · .NET 10  
-Standalone Web API consumed by an MVC client.
-
-**Highlights:**  
-- CRUD endpoints with async/await  
-- DTOs + Repository Pattern  
-- API consumed in MVC via HttpClient  
-- JSON serialization  
-- Filtering & sorting  
-
-👉 **Repository:** https://github.com/alanracic/MovieManagementAPI
+### Architecture
+- Clean Architecture · Repository Pattern · Dependency Injection · DDD Fundamentals
 
 ---
 
-### 3️⃣ InvoiceManagementMVC — EF Core Database-First Application  
-**Tech:** ASP.NET Core MVC · EF Core DB-First · SQL Server · Razor Views  
-Business-style application for invoices, line items, and computed totals.
+## Featured Projects
 
-**Highlights:**  
-- DB-First scaffolded models  
-- One-to-many relationships  
-- LINQ totals & filtering  
-- Razor UI for CRUD workflows  
-- Partial class extensions  
+### 1) WebShopMVC — Full-Stack ASP.NET Core eCommerce Application
+**Tech:** ASP.NET Core MVC (.NET 10) · SQL Server · Entity Framework Core · Identity · Razor  
 
-👉 **Repository:** https://github.com/alanracic/InvoiceManagementMVC
+Full-stack eCommerce application implementing end-to-end shopping workflows, authentication, and administrative management using a clean, layered architecture.
 
----
+**Highlights**
+- Implemented Identity-based authentication with role-based authorization  
+- Built an Admin area for managing products, categories, and images  
+- Developed shopping cart, checkout flow, and order lifecycle handling  
+- Applied LINQ-based filtering and pagination for efficient data access  
+- Structured the application using layered architecture with Dependency Injection and repository/service patterns  
 
-### 4️⃣ TodoListAPI — RESTful ASP.NET Core Web API  
-**Tech:** ASP.NET Core Web API · EF Core · Swagger/OpenAPI  
-A clean, minimal REST API for task management.
-
-**Highlights:**  
-- EF Core Code-First + migrations  
-- Async CRUD  
-- Validation & proper HTTP responses  
-- Swagger docs  
-- DI + repository/service layers  
-
-👉 **Repository:** https://github.com/alanracic/TodoListAPI
+**Repository:**  
+https://github.com/alanracic/WebShopMVC
 
 ---
 
-### 5️⃣ StudentManagementApp — EF Core Code-First + LINQ  
-**Tech:** ASP.NET Core MVC · EF Core Code-First · SQL Server · LINQ  
-Student and grade tracking system with seeded data and relational queries.
+### 2) MovieManagementAPI — ASP.NET Core Web API & MVC Client
+**Tech:** ASP.NET Core Web API · ASP.NET Core MVC · SQL Server · Entity Framework Core · HttpClient · JSON  
 
-**Highlights:**  
-- Code-First migrations  
-- Seeded data  
-- LINQ grouping & retrieval  
-- Razor UI for student/grade display  
+RESTful Web API for managing movie data, paired with a separate ASP.NET Core MVC client that consumes the API through structured HTTP communication.
 
-👉 **Repository:** https://github.com/alanracic/StudentManagementApp
+**Highlights**
+- Designed and implemented REST endpoints supporting full CRUD operations  
+- Applied asynchronous request handling using async/await  
+- Implemented Data Transfer Objects (DTOs) to decouple API and client models  
+- Used the Repository Pattern to separate business logic from data access  
+- Enabled structured JSON request/response handling between API and client  
+- Added filtering and sorting logic for efficient data retrieval  
 
----
-
-## 🧪 Additional Work
-**Unit Testing Suite (xUnit + Moq)**  
-Unit tests for MVC controllers using the Arrange–Act–Assert methodology.
+**Repository:**  
+https://github.com/alanracic/MovieManagementAPI
 
 ---
 
-## 🌍 Connect with Me
-- **LinkedIn:** https://www.linkedin.com/in/alanracic  
-- **Email:** alan.racic@gmail.com  
+### 3) InvoiceManagementMVC — ASP.NET Core MVC (Database-First)
+**Tech:** ASP.NET Core MVC · SQL Server · Entity Framework Core (Database-First) · LINQ · Razor  
+
+Business-oriented invoice management system built using a Database-First approach, focusing on structured data handling, calculations, and clear presentation of financial records.
+
+**Highlights**
+- Reverse-engineered SQL Server schema using Entity Framework Core Database-First scaffolding  
+- Implemented invoice and line-item workflows with reliable totals calculation  
+- Used LINQ queries for filtering, aggregation, and summary views  
+- Built Razor-based UI for full CRUD operations and data presentation  
+- Extended scaffolded models using partial classes to preserve clean structure  
+
+**Repository:**  
+https://github.com/alanracic/InvoiceManagementMVC
 
 ---
 
-## 💡 Career Goal
-To contribute to enterprise-grade ASP.NET systems using Clean Architecture, EF Core, and scalable REST APIs — while growing toward architecture and technical leadership roles.
+### 4) TodoListAPI — ASP.NET Core Web API (Code-First)
+**Tech:** ASP.NET Core Web API · SQL Server · Entity Framework Core · Swagger  
+
+Minimal RESTful API for task management, focused on clean structure, predictable behavior, and maintainable data access.
+
+**Highlights**
+- Code-First domain models with Entity Framework Core migrations  
+- Async CRUD endpoints following REST conventions  
+- Input validation and consistent HTTP responses  
+- Swagger-based API documentation for testing and inspection  
+- Layered structure with Dependency Injection and repository/service separation  
+
+**Repository:**  
+https://github.com/alanracic/TodoListAPI
+
+---
+
+### 5) StudentManagementApp — ASP.NET Core MVC (Code-First + LINQ)
+**Tech:** ASP.NET Core MVC · SQL Server · Entity Framework Core (Code-First) · LINQ · Razor  
+
+Student and grade management application focused on relational data modeling, seeded datasets, and query-driven presentation logic.
+
+**Highlights**
+- Code-First domain modeling with Entity Framework Core migrations  
+- Seeded relational data (students, grades, subjects)  
+- LINQ-based filtering, grouping, and projection for reporting-style views  
+- Razor UI for structured data display and navigation  
+
+**Repository:**  
+https://github.com/alanracic/StudentManagementApp
+
+---
+
+## Connect
+- LinkedIn: https://www.linkedin.com/in/alanracic  
+- Email: alan.racic@gmail.com
+
+---
+
+## Career Direction
+I focus on building enterprise-grade .NET systems with strong architecture, reliable data workflows, and clean APIs, with a long-term goal of contributing to long-lived codebases, deeper architectural responsibilities, and technical leadership.
