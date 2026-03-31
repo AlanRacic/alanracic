@@ -35,14 +35,15 @@ Before transitioning into software engineering, I led international IT and digit
 
 ---
 
-## Featured Projects
+## Featured Projects  
 
-### 1) WebShopMVC — Full-Stack ASP.NET Core eCommerce Application
+### **1) WebShopMVC — Full-Stack ASP.NET Core eCommerce Application**  
 **Tech:** ASP.NET Core MVC (.NET 10) · SQL Server · Entity Framework Core · Identity · Razor  
 
-Full-stack eCommerce application implementing end-to-end shopping workflows, authentication, and administrative management using a clean, layered architecture.
+Full-stack eCommerce application implementing end-to-end shopping workflows, authentication, and administrative management using a clean, layered architecture.  
 
-**Highlights**
+**Highlights**  
+
 - Implemented Identity-based authentication with role-based authorization  
 - Built an Admin area for managing products, categories, and images  
 - Developed shopping cart, checkout flow, and order lifecycle handling  
@@ -50,16 +51,36 @@ Full-stack eCommerce application implementing end-to-end shopping workflows, aut
 - Structured the application using layered architecture with Dependency Injection and repository/service patterns  
 
 **Repository:**  
-https://github.com/alanracic/WebShopMVC
+https://github.com/alanracic/WebShopMVC  
 
 ---
 
-### 2) MovieManagementAPI — ASP.NET Core Web API & MVC Client
+### **2) WeatherGatewayAPI — ASP.NET Core Web API (External Service Integration)**  
+**Tech:** ASP.NET Core Web API · JWT Authentication · HttpClient · JSON · DTOs  
+
+Backend API acting as a gateway to an external weather service, demonstrating secure API design, external service integration, and structured error handling.  
+
+**Highlights**  
+
+- Implemented JWT-based authentication and secured endpoints using `[Authorize]`  
+- Integrated external API via HttpClient with configurable base URL and timeout  
+- Applied DTO mapping to transform external responses into internal API models  
+- Built global exception handling middleware for consistent error responses (502/503/504)  
+- Used structured logging with ILogger for request tracking and diagnostics  
+- Designed clear separation between controller, service, and integration layers  
+
+**Repository:**  
+https://github.com/alanracic/WeatherGatewayAPI  
+
+---
+
+### **3) MovieManagementAPI — ASP.NET Core Web API & MVC Client**  
 **Tech:** ASP.NET Core Web API · ASP.NET Core MVC · SQL Server · Entity Framework Core · HttpClient · JSON  
 
-RESTful Web API for managing movie data, paired with a separate ASP.NET Core MVC client that consumes the API through structured HTTP communication.
+RESTful Web API for managing movie data, paired with a separate ASP.NET Core MVC client that consumes the API through structured HTTP communication.  
 
-**Highlights**
+**Highlights**  
+
 - Designed and implemented REST endpoints supporting full CRUD operations  
 - Applied asynchronous request handling using async/await  
 - Implemented Data Transfer Objects (DTOs) to decouple API and client models  
@@ -68,11 +89,11 @@ RESTful Web API for managing movie data, paired with a separate ASP.NET Core MVC
 - Added filtering and sorting logic for efficient data retrieval  
 
 **Repository:**  
-https://github.com/alanracic/MovieManagementAPI
+https://github.com/alanracic/MovieManagementAPI  
 
 ---
 
-### 3) InvoiceManagementMVC — ASP.NET Core MVC (Database-First)
+### 4) InvoiceManagementMVC — ASP.NET Core MVC (Database-First)
 **Tech:** ASP.NET Core MVC · SQL Server · Entity Framework Core (Database-First) · LINQ · Razor  
 
 Business-oriented invoice management system built using a Database-First approach, focusing on structured data handling, calculations, and clear presentation of financial records.
@@ -89,7 +110,7 @@ https://github.com/alanracic/InvoiceManagementMVC
 
 ---
 
-### 4) TodoListAPI — ASP.NET Core Web API (Code-First)
+### 5) TodoListAPI — ASP.NET Core Web API (Code-First)
 **Tech:** ASP.NET Core Web API · SQL Server · Entity Framework Core · Swagger  
 
 Minimal RESTful API for task management, focused on clean structure, predictable behavior, and maintainable data access.
@@ -106,7 +127,7 @@ https://github.com/alanracic/TodoListAPI
 
 ---
 
-### 5) StudentManagementApp — ASP.NET Core MVC (Code-First + LINQ)
+### 6) StudentManagementApp — ASP.NET Core MVC (Code-First + LINQ)
 **Tech:** ASP.NET Core MVC · SQL Server · Entity Framework Core (Code-First) · LINQ · Razor  
 
 Student and grade management application focused on relational data modeling, seeded datasets, and query-driven presentation logic.
