@@ -25,20 +25,14 @@ Before focusing on software engineering, I led international IT and digital tran
 
 Enterprise-oriented ASP.NET Core Web API designed around maintainability, reliability, observability, and production-oriented delivery practices.
 
-The solution applies **Clean Architecture** across Domain, Application, Infrastructure, and API layers and combines several concerns commonly found in long-lived backend systems:
-
-* ASP.NET Core Identity with role-based authorization
+* Clean Architecture across Domain, Application, Infrastructure, and API layers, with ASP.NET Core Identity and role-based authorization
 * EF Core and SQL Server with pagination, filtering, sorting, indexing, and optimistic concurrency
 * Redis and in-memory caching with version-based cache invalidation
-* Resilient external HTTP integration with timeout, retry, and fallback behavior
-* OpenTelemetry tracing, structured logging, and health checks
-* Hangfire background processing
+* Resilient external HTTP integration, Hangfire background processing, OpenTelemetry tracing, structured logging, and health checks
 * Unit and integration testing with xUnit, Moq, WebApplicationFactory, and Testcontainers
-* Docker and Docker Compose
-* GitHub Actions CI/CD and container publishing to GHCR
-* Azure Container Apps and Azure SQL deployment using federated OIDC authentication
+* Docker, GitHub Actions CI/CD, GHCR, Azure Container Apps, and Azure SQL with federated OIDC authentication
 
-The repository README documents the architecture, design decisions, request flows, infrastructure setup, testing strategy, and deployment process.
+The repository README documents the architecture, design decisions, request flows, testing strategy, infrastructure, and deployment process.
 
 ---
 
@@ -46,23 +40,23 @@ The repository README documents the architecture, design decisions, request flow
 
 ### [WebShopMVC](https://github.com/AlanRacic/WebShopMVC)
 
-ASP.NET Core MVC e-commerce application implementing end-to-end business workflows including authentication, role-based administration, product management, shopping cart, checkout, order processing, EF Core persistence, and containerized SQL Server deployment with Docker Compose.
+ASP.NET Core MVC e-commerce application covering authentication, role-based administration, product management, shopping cart, checkout, order processing, EF Core persistence, and Docker Compose deployment.
 
 ### [WeatherGatewayAPI](https://github.com/AlanRacic/WeatherGatewayAPI)
 
-Focused ASP.NET Core integration API demonstrating external HTTP communication, typed `HttpClient`, configurable service integration, JWT-protected endpoints, structured logging and error handling, and automated deployment to Azure App Service through GitHub Actions.
+ASP.NET Core integration API focused on typed `HttpClient`, external service communication, JWT-protected endpoints, structured error handling and logging, GitHub Actions, and Azure App Service deployment.
 
 ### [MovieManagementAPI](https://github.com/AlanRacic/MovieManagementAPI)
 
-Multi-project ASP.NET Core solution separating a REST API, MVC consumer, EF Core persistence layer, and xUnit tests. The MVC application consumes the API through HTTP/JSON communication while repository abstractions isolate data access from the API layer.
+Multi-project ASP.NET Core solution separating a REST API, MVC consumer, EF Core data layer, and xUnit tests, with repository abstractions and HTTP/JSON communication between applications.
 
 ### [InvoiceManagementMVC](https://github.com/AlanRacic/InvoiceManagementMVC)
 
-Business-oriented ASP.NET Core MVC application built with **Entity Framework Core Database-First**, demonstrating reverse-engineered SQL Server models, relational invoice and line-item data, LINQ-based data access, and partial-class extensions of scaffolded entities.
+ASP.NET Core MVC application demonstrating EF Core Database-First, reverse-engineered SQL Server models, relational invoice data, LINQ-based access, and partial-class extensions of scaffolded entities.
 
 ### [TodoListAPI](https://github.com/AlanRacic/TodoListAPI)
 
-ASP.NET Core application combining an authenticated REST API and MVC interface for user-owned todo lists and tasks, using ASP.NET Core Identity, EF Core Code-First, SQL Server, and asynchronous data access.
+ASP.NET Core application combining an authenticated REST API and MVC interface for user-owned todo lists and tasks using Identity, EF Core Code-First, SQL Server, and asynchronous data access.
 
 ---
 
