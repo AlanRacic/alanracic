@@ -28,10 +28,8 @@ Before focusing on software engineering, I led international IT and digital tran
 Production-oriented ASP.NET Core Web API designed around maintainability, reliability, observability, automated testing, and cloud delivery.
 
 - Clean Architecture across Domain, Application, Infrastructure, and API layers
-- ASP.NET Core Identity with bearer authentication and role-based authorization
-- EF Core and SQL Server with pagination, filtering, sorting, indexing, and `rowversion` optimistic concurrency
-- Redis and in-memory caching with version-based cache invalidation
-- Resilient external HTTP integration, Hangfire background processing, OpenTelemetry tracing, structured logging, and health checks
+- ASP.NET Core Identity, role-based authorization, EF Core / SQL Server, pagination, indexing, and `rowversion` optimistic concurrency
+- Redis and in-memory caching, resilient external HTTP integration, Hangfire, OpenTelemetry, structured logging, and health checks
 - Unit and integration testing with xUnit, Moq, `WebApplicationFactory`, Testcontainers, and SQL Server
 - Docker, GitHub Actions CI/CD, GHCR, Azure Container Apps, Azure SQL, and federated OIDC authentication for deployment
 
@@ -60,31 +58,6 @@ ASP.NET Core MVC application demonstrating EF Core Database-First, SQL Server re
 ### [TodoListAPI](https://github.com/AlanRacic/TodoListAPI)
 
 ASP.NET Core application combining MVC and authenticated REST API workflows with Identity, per-user resource ownership, dedicated API contracts, EF Core Code-First migrations, and SQL Server.
-
----
-
-## Technology Stack
-
-**Backend**  
-C# · .NET 10 · ASP.NET Core · Web APIs · MVC · REST
-
-**Data**  
-SQL Server · Entity Framework Core · LINQ · Code-First · Database-First · EF Core Migrations · Redis
-
-**Architecture & Reliability**  
-Clean Architecture · Dependency Injection · Repository Pattern · Service Layer · DTOs · Caching · Resilience · Optimistic Concurrency · OpenTelemetry · Hangfire
-
-**Security**  
-ASP.NET Core Identity · Authentication · Authorization · Role-Based Access Control · JWT
-
-**Testing**  
-xUnit · Moq · Integration Testing · WebApplicationFactory · Testcontainers
-
-**Cloud & Delivery**  
-Azure · Docker · Docker Compose · GitHub Actions · CI/CD · GHCR · OpenID Connect
-
-**UI & Supporting Front-End**  
-Razor · HTML · CSS · JavaScript
 
 ---
 
